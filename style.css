@@ -1,9 +1,9 @@
 
-        body {
-            background-color: #000; /* Fundo preto */
-            color: #fff; /* Cor do texto branco para contraste */
+         body {
+            background-color: #0f89ec86; /* Fundo preto */
+            color: #141414; /* Cor do texto branco para contraste */
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin: center;
             padding: 20px;
         }
         .watermark {
@@ -14,7 +14,7 @@
             height: 100%;
             background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e0/Machado_de_Assis_1907.jpg'); /* Imagem do Machado de Assis */
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: left;
             background-size: 50%; /* Ajusta o tamanho da imagem */
             opacity: 0.1; /* Define a opacidade da marca d'água (ajuste este valor para mais ou menos visibilidade) */
             z-index: -1; /* Coloca a marca d'água atrás do conteúdo */
@@ -23,7 +23,7 @@
             position: relative;
             z-index: 1; /* Garante que o conteúdo fique na frente da marca d'água */
             max-width: 800px;
-            margin: auto;
-            text-align: center;
-        }
+            margin: 20;
+            text-align: left;
+            
     
